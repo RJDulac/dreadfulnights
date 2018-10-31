@@ -18,7 +18,6 @@ while(have_posts()) {
 
 <?php }
 
-//my function is gone :(
 ?>
     </div>
     <?php

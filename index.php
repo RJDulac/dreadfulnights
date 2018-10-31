@@ -4,7 +4,7 @@
 ?>
 <div class="container">
 <?php
-
+//test
 // wordpress loop
 while(have_posts()) {
     //wordpress function that keeps track of posts

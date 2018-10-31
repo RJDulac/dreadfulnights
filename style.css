@@ -1,0 +1,14 @@
+/*
+Theme Name: Dreadfulnights
+Author: Ryan Dulac
+Version: 1.0
+*/
+
+body {
+    color: #fff;
+    background-color: black;
+}
+
+.container p {
+    word-wrap: break-word;
+}

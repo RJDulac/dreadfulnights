@@ -1,5 +1,4 @@
 <!-- get header function to pull in contents from header.php -->
-<!---HELLO-->
 <?php get_header(); 
 
 ?>

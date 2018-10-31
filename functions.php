@@ -11,16 +11,12 @@ function DNFiles() {
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     //null for no depedencies and microtime() to avoid caching. Remove before deploying
     wp_enqueue_style('DNMainStyles', get_stylesheet_uri(), null, microtime());
-}
-    
+}   
 add_action('wp_enqueue_scripts', 'DNFiles');
-
 //dynamic title tag
 function dreadful_features() {
 	add_theme_support('title-tag');
 }
-
 add_action('after_setup_theme', 'dreadful_features')
-
 ?>
 

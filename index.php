@@ -1,8 +1,6 @@
 <!-- get header function to pull in contents from header.php -->
 <?php get_header(); 
-
 ?>
-
 <?php
 //test
 // wordpress loop
@@ -17,26 +15,19 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
-
 </div>
 <div class="col-md-8">
-
 <?php
 while(have_posts()) {
     //wordpress function that keeps track of posts
-
     the_post(); ?>
     <h2><a href="<?php the_permalink();?>"><?php the_title();?></a><h2>
     <?php the_excerpt(); ?>
     <hr>
-
-
 <?php }
-
 ?>
 </div>
     </div>
     <?php
-
 get_footer();
 ?>

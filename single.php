@@ -2,6 +2,9 @@
 <?php
 get_header();
 // wordpress loop
+?>
+<div class="container">
+<?php
 while(have_posts()) {
     //wordpress function that keeps track of posts
     the_post(); ?>
@@ -9,5 +12,8 @@ while(have_posts()) {
     <?php the_content(); ?>
 
 <?php }
+?>
+</div>
+<?php
 get_footer();
 ?>

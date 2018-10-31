@@ -12,3 +12,19 @@ body {
 .container p {
     word-wrap: break-word;
 }
+
+a.nav-link{
+    color: rgba(255,255,255,.9);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+.navbar-brand img{
+    width: 22vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-inline{
+    font-family: 'Amatic SC', cursive;
+}

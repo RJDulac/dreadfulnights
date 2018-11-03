@@ -2,7 +2,7 @@
 function DNFiles() {
     //microtime() is a php function used here to avoid caching. Replace with version or null later.
     wp_enqueue_script('main-js', get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
-    wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i|Amatic+SC');
+    wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
     
     wp_enqueue_script('jquery', get_template_directory_uri() .'/js/jquery-3.3.1.slim.min.js', array('jquery'), null, true);
 	wp_enqueue_script( 'bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', array( 'jquery' ), "4.1.3", true);

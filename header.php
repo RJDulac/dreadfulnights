@@ -4,7 +4,6 @@
     <?php wp_head(); ?>
 </head>
 <body>
-
 <!--Need to inspect NavBar-->
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,13 +1,12 @@
-<!-- get header function to pull in contents from header.php -->
 <?php get_header(); 
 ?>
 <?php
 //test
 // wordpress loop
 ?>
-<div class="container row">
+<div class="container row pt-4">
 <div class="col-md-4">
-<div class="card" style="width: 18rem;">
+<div class="card w-100">
   <img class="card-img-top" src=".../100px180/" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>

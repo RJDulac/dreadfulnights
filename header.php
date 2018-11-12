@@ -4,7 +4,6 @@
     <?php wp_head(); ?>
 </head>
 <body>
-
 <!--Need to inspect NavBar cat-->
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">                
             

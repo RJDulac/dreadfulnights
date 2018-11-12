@@ -4,7 +4,7 @@
 //test
 // wordpress loop
 ?>
-<div class="container row pt-4">
+<div class="container-fluid row pt-4">
 <div class="col-md-4">
 <div class="card w-100">
   <img class="card-img-top" src=".../100px180/" alt="Card image cap">
@@ -27,5 +27,4 @@ while(have_posts()) {
 </div>
     </div>
     <?php
-get_footer();
-?>
+get_footer(); ?>

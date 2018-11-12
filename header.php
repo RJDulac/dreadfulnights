@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
 </head>
-<body>
+<body style="background-image: url(<?php echo get_theme_file_uri('/img/background1.jpg') ?>);">
 <!--Need to inspect NavBar cat-->
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">                
             
